@@ -6,7 +6,13 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Lexend', sans-serif;
+   
 }
+
+section {
+    padding: 2rem 9%;
+}
+
 
 
 html{
@@ -45,3 +51,71 @@ section .navbar a{
     font-weight: 300; 
 }
 
+
+#menu-btn{
+    padding: 1rem 1.5rem;
+    background-color: #1a191f;
+    font-size: 3rem;
+    border-radius: .5rem;
+    cursor: pointer;
+    display: none;
+    color: #fff;
+}
+
+
+
+/* Media Queries */
+
+
+
+
+@media (max-width: 991px){
+    html{
+        font-size: 55%;
+    }
+    section{
+        padding: 2rem;
+    }
+    
+}
+
+@media (max-width: 768px){
+    #menu-btn{
+        display: initial;
+    }
+
+    section .navbar{
+        position: absolute;
+        top: 15%;
+        right: 2rem;
+        box-shadow: var(--box-shadow);
+        width: 30rem;
+        border-radius: .5rem;
+        border: 2px solid #f9ab00;
+        background-color: #1a191f;
+        height: 25rem;
+        box-shadow: .5rem .5rem  0 #f9ab00;
+        transform: scale(0);
+        transform-origin: top right;
+        transition: 0.2s linear;
+    }
+
+    section .navbar.active{
+        transform: scale(1);
+        
+    }
+
+    section .navbar a{
+        margin: 4rem;
+        text-align: left;
+        display: block;
+        font-size: 2rem;
+    }
+}
+
+
+@media (max-width: 450px){
+    html{
+        font-size: 50%;
+    }
+}
