@@ -131,20 +131,27 @@ a{
     height: 100vh;
     background: rgba(0,0,0,0.7) url(https://images5.alphacoders.com/100/thumbbig-1002392.webp);
     background-size: cover;
-    background-blend-mode: darken;
+    background-blend-mode: multiply;
     background-position: center;
 }
 .home .owl-carousel .item2{
     height: 100vh;
     background: rgba(0,0,0,0.7) url(..//img/SpiderMan-Wallpaper.jpg);
     background-size: cover;
-    background-blend-mode: darken;
+    background-blend-mode: multiply;
     background-position: center;
 }
 .home .owl-carousel .item3{
     height: 100vh;
     background: rgba(0,0,0,0.7) url(..//img/Venom-Wallpaper.jpg);
     background-size: cover;
-    background-blend-mode: darken;
+    background-blend-mode: multiply;
+    background-position: center;
+}
+.home .owl-carousel .item4{
+    height: 100vh;
+    background: rgba(0,0,0,0.7) url(..//img/Endgame-Wallpaper.jpg);
+    background-size: cover;
+    background-blend-mode: multiply;
     background-position: center;
 }
