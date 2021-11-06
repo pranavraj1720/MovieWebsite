@@ -10,11 +10,20 @@
    
 }
 
+::selection{
+    background-color:#1a191f;
+    color: #fff;
+}
+::-webkit-scrollbar{
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #1a191f;
+}
 header {
     padding: 2rem 9%;
 }
-
-
 
 
 html{
@@ -33,7 +42,7 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: flex-start;    
-    background-color: #1a191f;
+    background-color: #000;
     z-index: 100;
 }
 
@@ -133,19 +142,134 @@ a{
 
 
 .home .owl-carousel .item1{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    gap: 5rem;
+    flex-wrap: wrap;
+    width: 100vw;
     height: 95vh;
-    background: rgba(0,0,0,0.7) url(https://images5.alphacoders.com/100/thumbbig-1002392.webp);
+    background: rgba(0,0,0,0.7) url(https://images3.alphacoders.com/692/thumbbig-692439.webp);
     background-size: cover;
     background-blend-mode: multiply;
     background-position: center;
+    padding: 0rem 9%; 
 }
+
+.home .owl-carousel .item1 .image{
+    flex: 1 1 45rem;
+}
+.home .owl-carousel .item1 .image img{
+    width: 285px;
+    border-radius: 2rem;
+    margin-top: 1rem;
+}
+
+.home .owl-carousel .item1 .content{
+    flex: 1 1 45rem;
+    /* padding-left: 20rem; */
+}
+
+.home .owl-carousel .item1 .content h1{
+    font-size: 4.5rem;
+    padding-bottom: 1rem;
+    padding-top: 2rem;
+}
+
+.home .owl-carousel .item1 .content p{
+    font-size: 1.3rem;
+    padding: 1rem 0;
+    max-width: 50rem;
+    padding-bottom: 3rem;
+}
+.home .owl-carousel .item1 .content .home-btn1{
+    padding: 1rem 3rem;
+    background-color: hsl(0, 94%, 66%);
+    color: #fff;
+    font-size: 1.4rem;
+    border-radius: 2rem;
+    transition: 0.2s linear;
+}
+.home .owl-carousel .item1 .content .home-btn1:hover{
+    border: 2px solid #fff;
+    background-color: transparent;
+    color: #fff;
+}
+.home .owl-carousel .item1 .content .home-btn2{
+    border: 2px solid #fff;
+    padding: 1rem 4rem;
+    background-color: transparent;
+    color: #fff;
+    font-size: 1.4rem;
+    border-radius: 2rem;
+    margin-left: 1rem;
+}
+
+
 .home .owl-carousel .item2{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    gap: 5rem;
+    flex-wrap: wrap;
+    width: 100vw;
     height: 95vh;
     background: rgba(0,0,0,0.7) url(..//img/SpiderMan-Wallpaper.jpg);
     background-size: cover;
     background-blend-mode: multiply;
     background-position: center;
+    padding: 2rem 9%;
+    
 }
+.home .owl-carousel .item2 .image{
+    flex: 1 1 45rem;
+}
+.home .owl-carousel .item2 .image img{
+    width: 285px;
+    border-radius: 2rem;
+    margin-top: 1rem;
+}
+
+.home .owl-carousel .item2 .content{
+    flex: 1 1 45rem;
+    /* padding-left: 20rem; */
+}
+
+.home .owl-carousel .item2 .content h1{
+    font-size: 4.5rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.home .owl-carousel .item2 .content p{
+    font-size: 1.3rem;
+    padding: 1rem 0;
+    max-width: 50rem;
+    padding-bottom: 3rem;
+}
+.home .owl-carousel .item2 .content .home-btn1{
+    padding: 1rem 3rem;
+    background-color: hsl(0, 94%, 66%);
+    color: #fff;
+    font-size: 1.4rem;
+    border-radius: 2rem;
+    transition: 0.2s linear;
+}
+.home .owl-carousel .item2 .content .home-btn1:hover{
+    border: 2px solid #fff;
+    background-color: transparent;
+    color: #fff;
+}
+.home .owl-carousel .item2 .content .home-btn2{
+    border: 2px solid #fff;
+    padding: 1rem 4rem;
+    background-color: transparent;
+    color: #fff;
+    font-size: 1.4rem;
+    border-radius: 2rem;
+    margin-left: 1rem;
+}
+
 .home .owl-carousel .item3{
     display: flex;
     align-items: center;
@@ -166,7 +290,7 @@ a{
 .home .owl-carousel .item3 .image img{
     width: 285px;
     border-radius: 2rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
 .home .owl-carousel .item3 .content{
@@ -177,13 +301,14 @@ a{
 .home .owl-carousel .item3 .content h1{
     font-size: 4.5rem;
     padding-bottom: 1rem;
+    padding-top: 2rem;
 }
 
 .home .owl-carousel .item3 .content p{
     font-size: 1.3rem;
     padding: 1rem 0;
     max-width: 50rem;
-    padding-bottom: 4rem;
+    padding-bottom: 3rem;
 }
 .home .owl-carousel .item3 .content .home-btn1{
     padding: 1rem 3rem;
@@ -209,13 +334,67 @@ a{
 }
 
 .home .owl-carousel .item4{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    gap: 5rem;
+    flex-wrap: wrap;
+    width: 100vw;
     height: 95vh;
     background: rgba(0,0,0,0.7) url(..//img/Endgame-Wallpaper.jpg);
     background-size: cover;
     background-blend-mode: multiply;
     background-position: center;
-    
+    padding: 2rem 9%;
+   
 }
 
 
+.home .owl-carousel .item4 .image{
+    flex: 1 1 45rem;
+}
+.home .owl-carousel .item4 .image img{
+    width: 285px;
+    border-radius: 2rem;
+    margin-top: 1rem;
+}
 
+.home .owl-carousel .item4 .content{
+    flex: 1 1 45rem;
+    /* padding-left: 20rem; */
+}
+
+.home .owl-carousel .item4 .content h1{
+    font-size: 4.5rem;
+    padding-bottom: 1rem;
+    padding-top: 2rem;
+}
+
+.home .owl-carousel .item4 .content p{
+    font-size: 1.3rem;
+    padding: 1rem 0;
+    max-width: 50rem;
+    padding-bottom: 3rem;
+}
+.home .owl-carousel .item4 .content .home-btn1{
+    padding: 1rem 3rem;
+    background-color: hsl(0, 94%, 66%);
+    color: #fff;
+    font-size: 1.4rem;
+    border-radius: 2rem;
+    transition: 0.2s linear;
+}
+.home .owl-carousel .item4 .content .home-btn1:hover{
+    border: 2px solid #fff;
+    background-color: transparent;
+    color: #fff;
+}
+.home .owl-carousel .item4 .content .home-btn2{
+    border: 2px solid #fff;
+    padding: 1rem 4rem;
+    background-color: transparent;
+    color: #fff;
+    font-size: 1.4rem;
+    border-radius: 2rem;
+    margin-left: 1rem;
+}

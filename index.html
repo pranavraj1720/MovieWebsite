@@ -39,10 +39,28 @@
     <div class="owl-carousel owl-theme">
         
         <div class="item1">
-            
+            <div class="content">
+                <h1>Captain America: Civil War</h1>
+                <p>Friction arises between the Avengers when one group supports the government's decision to implement a law to control their powers while the other opposes it.</p>
+                <a href="#" class="home-btn1">Watch Trailer</a>
+                <a href="#" class="home-btn2">Watch now</a>
+            </div>
+        
+            <div class="image">
+                <img src="https://m.media-amazon.com/images/M/MV5BMjQ0MTgyNjAxMV5BMl5BanBnXkFtZTgwNjUzMDkyODE@._V1_FMjpg_UX1000_.jpg"  alt="Civil War">
+            </div>
         </div>
         <div class="item2">
-            
+            <div class="content">
+                <h1>Spider-Man: Far from Home</h1>
+                <p>Peter Parker, the beloved superhero Spider-Man, faces four destructive elemental monsters while on holiday in Europe. Soon, he receives help from Mysterio, a fellow hero with mysterious origins.</p>
+                <a href="#" class="home-btn1">Watch Trailer</a>
+                <a href="#" class="home-btn2">Watch now</a>
+            </div>
+        
+            <div class="image">
+                <img src="https://m.media-amazon.com/images/M/MV5BNjFiMzU5NmItNDJhMS00NWVhLWE4YjctNDIxODBkZDk5NTYxXkEyXkFqcGdeQXVyNjE2MjUwNTk@._V1_.jpg"  alt="Spider Man">
+            </div>
         </div>
        
         <div class="item3">
@@ -59,7 +77,16 @@
         </div>
         
         <div class="item4">
-            
+            <div class="content">
+                <h1>Avengers: Endgame</h1>
+                <p>After Thanos, an intergalactic warlord, disintegrates half of the universe, the Avengers must reunite and assemble again to reinvigorate their trounced allies and restore balance.</p>
+                <a href="#" class="home-btn1">Watch Trailer</a>
+                <a href="#" class="home-btn2">Watch now</a>
+            </div>
+        
+            <div class="image">
+                <img src="https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_.jpg"  alt="Endgame">
+            </div>
         </div>
         
     </div>
@@ -67,6 +94,8 @@
     
 </section>
     <!-- home section ends -->
+
+   
     
     <!-- Jquery CDN (For OwlCarousel) -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -78,8 +107,8 @@
         $('.owl-carousel').owlCarousel({
     loop:true,
     margin:0,
-    // autoplay: true,
-    // autoplayTimeout: 5000,
+    autoplay: true,
+    autoplayTimeout: 5000,
     nav:false,
     dots: false,
     responsive:{
