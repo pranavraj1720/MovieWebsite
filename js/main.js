@@ -1,3 +1,5 @@
+// Navbar Section Starts 
+
 let menu = document.querySelector("#menu-btn")
 let navbar = document.querySelector(".navbar")
 
@@ -14,5 +16,6 @@ window.onscroll = () =>{
 }
 
 
+// Navbar Section Ends 
 
 

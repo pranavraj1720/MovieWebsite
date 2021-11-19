@@ -1,3 +1,4 @@
+/* Google Fonts: Poppins*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
 
 
@@ -7,7 +8,6 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     color: #fff;
-   
 }
 
 ::selection{
@@ -36,6 +36,8 @@ a{
     text-decoration: none;
     color: #000;
 }
+
+/* Navbar Section Starts  */
 
 .header{
     padding: 3rem 9%;
@@ -133,6 +135,8 @@ a{
     }
 }
 
+/* Navbar Section Ends  */
+
 /* home section starts  */
 .home{
     height: 95vh;   
@@ -224,4 +228,8 @@ a{
     margin-left: 1rem;
 }
 
+
+
 /* home section ends  */
+
+
